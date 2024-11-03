@@ -1,4 +1,4 @@
 const typeo = new Typed('#tipeado', {
-        strings: ['Web developer','crazy about Javascript', 'Junior'],
-        typedSpeed: 10000,
-    })
+    strings: ['Frontend developer', 'Crazy about Javascript', ' excited for you to look for my portfolio'],
+    typeSpeed: 50,
+})
