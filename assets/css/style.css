@@ -5,9 +5,13 @@
 }
 
 body {
-    /* background:linear-gradient(rgb(255, 255, 255),rgb(121, 121, 121), rgb(0, 0, 0)); */
-    font-family: "Roboto", sans-serif;
-    font-weight: 350;
+    background: #283c86;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+
+    font-family: "Kanit", serif;
+    font-weight: 299;
     font-style: normal;
 }
 
@@ -33,12 +37,12 @@ body {
 .img-description img {
     width: 100px;
     border-radius: 50em;
-    border: 2px solid rgb(255, 51, 0);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .description h2 {
     margin: 10px;
-    color: rgb(255, 51, 0);
+    /* color: rgb(255, 51, 0); */
 }
 
 .myHistory {
@@ -63,6 +67,7 @@ body {
     height: 140px;
     margin: 20px;
     border-radius: 50%;
+    filter: grayscale(100%);
 }
 
 /* Desplazamiento a la izquierda para los elementos impares */
